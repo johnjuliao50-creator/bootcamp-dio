@@ -1,0 +1,21 @@
+agora já com que aprendemos vamos usar a mesma metodologia para formulários de login web vamos tentar acessar o site da DVWA que e feito para pratica e testes de vulnerabilidade 
+[imagem 5]
+
+abrindo a função de desenvolvedor do site e tentando logar conseguimos ver o caminho que essa ações fazem
+[imagem 6]
+
+agora iremos criar uma wordlist para automatizar o ataque 
+[Imagem 7]
+
+agora com ajuda do medusa vamos cruzar todas as possibilidades de senhas e usuários de forma automática 
+
+usando o seguinte comando 
+
+[iamagem 8]
+
+agora com a senha e o login adquirido podemos logar no site
+[imagem 9]
+
+
+
+

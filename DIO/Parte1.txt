@@ -1,0 +1,16 @@
+sabendo que o me PC com Kali Linux estava conectado na mesma rede que o  servidor que tenho a intenção de invadir usando a ferramenta de ping
+[imagem 1]
+agora sabemos que estamos conectados porque sabemos que enviei três pacotes e recebi os mesmo sem perder nenhum 
+ agora com a ferramenta de Nmap vamos checar se as seguintes portas de rede estão abertas 21,22,80,445,193 e em qual versão elas estão rodando
+[imagem 2]
+agora que conseguimos ver quais porás estão abertas e quais são as versões do sistema  elas estão rodando
+já vimos tbm que já esta aceitando comandos ftp e que podemos logar se possuirmos a senha e login 
+
+já que não temos nem senha nem login vamos crias uma lista simples de ambos para tentar acessar o servidor pelo método de brute force
+[imagem 3]
+
+com as listas criadas agora tentaremos usar o método de brute force
+com a ferramenta medusa para acessar o servidor 
+[imagem 4]
+
+agora com a senha e o login adquiridos podemos entrar no servidor sem maiores problemas

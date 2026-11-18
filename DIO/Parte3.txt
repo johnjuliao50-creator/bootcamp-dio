@@ -1,0 +1,14 @@
+agora faremos os métodos de ataque com Enumeração SMB e Password Spraying
+levando em conta que já temos acesso ao servidor SMB ativo queremos descobrir quantos usuários temos no sistema e tentar descobrir as senhas dos mesmo usando o método do Password Spraying que iremos usar uma quantidade de senhas para vários usuários ao mesmo tempo 
+
+primeiro vamos detectar quantos usuário existem com o comando enum4 e criar uma arquivo em texto para vermos os usuários
+[imagem 10]
+
+agora que sabemos os usuários vamos crias uma lista para usuário e senhas para o ataque 
+[imagem 11]
+
+agora com as listas feitas vamos para o ataque com a medusa
+
+[Imagem12]
+
+Pronto agora conseguimos adquirir acesso a uma das contas do servidor 
